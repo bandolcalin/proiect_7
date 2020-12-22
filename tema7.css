@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(173, 210, 233);
+    background-image: url("https://wallpaperaccess.com/full/1540024.jpg");
+}
+
+#search-container {
+    margin: 40px 50px 40px 50px;
+    background-color: white;
+    padding: 50px;
+    opacity: 70%;
+    border-radius: 50px;
+}
+
+input {
+    padding: 10px 155px;
+    border-radius: 20px;
+}
+
+span {
+    display: inline;
+    padding: 10px;
+    color: white;
+    background-color: rgb(51, 109, 255);
+    margin-left: 10px;
+}
+
+#weather-container, #forecast-container {
+    margin: 40px 50px 40px 50px;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 50px;
+}
+
+h1 {
+    padding: 50px;
+}
+
+p {
+    margin: 20px 50px;
+    align-content: center;
+    opacity: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td, th {
+    font-size: 20px;
+}
+
+td {
+    margin: 10px 20px;
+}
+
+th {
+    margin: 10px 40px;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+}
+
+#icon-now {
+    width: 100px;
+    margin-left: 40px;
+}
+
+img {
+    width: 2.36em;
+    margin: auto;
+}
+
+span {
+    border-radius: 30px;
+}
+
+.temp-forecast > tr {
+    align-items: center;
+    margin: 17px;
+}
+
+.day-forecast > tr {
+    margin: 17px;
+}
+
+.description-forecast > tr {
+    margin: 17px;
+}
